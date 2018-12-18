@@ -1,0 +1,23 @@
+﻿Build started 03/11/2018 10:07:20.
+     1>Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\glfw2D\glfw2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\engine2D/" /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\/glfw2D/res/includes" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\tamir\documents\visual studio 2012\projects\glfw2d\glfw2d\debugTimer.h(13): warning C4244: '=' : conversion from 'uint64_t' to 'unsigned int', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\glfw2d\glfw2d\debugTimer.h(18): warning C4244: 'initializing' : conversion from 'uint64_t' to 'unsigned int', possible loss of data
+     1>c:\users\tamir\documents\visual studio 2012\projects\glfw2d\glfw2d\debugTimer.h(24): warning C4244: 'initializing' : conversion from 'uint64_t' to 'unsigned int', possible loss of data
+     1>C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\engine2D\sceneParser.h(36): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\glfw2D.exe" /NOLOGO /LIBPATH:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\glfw2D\res\libs" glew32s.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\glfw2D.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\glfw2D.lib" /MACHINE:X86 /SAFESEH Release\display.obj
+         Release\main.obj
+         "C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\engine2D.lib"
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\vc100.pdb'; linking object as if no debug info
+         glfw2D.vcxproj -> C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\glfw2D.exe
+     1>Done Building Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\glfw2D\glfw2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38

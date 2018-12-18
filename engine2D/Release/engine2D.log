@@ -1,0 +1,18 @@
+﻿Build started 03/11/2018 10:07:18.
+     1>Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\engine2D\engine2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\glfw2d/res/includes" /I"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\engine2D" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sceneParser.cpp
+         sceneParser.cpp
+     1>c:\users\tamir\documents\visual studio 2012\projects\glfw2d\engine2d\SceneParser.h(36): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\engine2D.lib" /NOLOGO /LTCG Release\mesh.obj
+         Release\sceneParser.obj
+         Release\shader.obj
+         Release\stb_image.obj
+         Release\texture.obj
+         engine2D.vcxproj -> C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\Release\engine2D.lib
+     1>Done Building Project "C:\Users\tamir\Documents\Visual Studio 2012\Projects\glfw2D\engine2D\engine2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60

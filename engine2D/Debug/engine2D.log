@@ -1,0 +1,9 @@
+﻿  mesh.cpp
+  sceneParser.cpp
+c:\users\almogdub\documents\glfw2d\engine2d\sceneparser.h(36): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  shader.cpp
+  texture.cpp
+c:\users\almogdub\documents\glfw2d\engine2d\texture.cpp(21): warning C4838: conversion from 'int' to 'GLenum' requires a narrowing conversion
+  Generating Code...
+  stb_image.c
+  engine2D.vcxproj -> C:\Users\almogdub\Documents\glfw2D\Debug\engine2D.lib
